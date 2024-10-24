@@ -30,6 +30,7 @@ h1 {
   /* background-color: rgb(224, 248, 211); */
   background: rgba(49, 135, 125, 0.3);
   border-radius: 10px;
+  box-shadow: 0 0 10px rgb(0, 0, 0, 0.2);
 }
 
 .cont {
@@ -37,6 +38,7 @@ h1 {
   justify-content: space-between;
   align-items: center;
   height: 6rem;
+  margin: 2rem 0;
 }
 
 p {
@@ -50,4 +52,13 @@ input {
   padding-left: 2rem;
   font-size: 1.8rem;
   border-radius: 5px;
+  float: left;
+  background: rgba(255, 255, 255, 0.3);
+  border-color: rgba(255, 255, 255, 0.5);
+  color: darkgreen;
+}
+
+input::placeholder {
+  font-size: 1.6rem;
+  color: rgb(158, 158, 158);
 }
