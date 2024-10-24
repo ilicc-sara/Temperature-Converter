@@ -3,18 +3,27 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap"
+      rel="stylesheet"
+    />
+
     <title>Temperature Converter</title>
   </head>
   <body>
     <script type="module" src="/main.js"></script>
     <form class="container">
       <h1>Temperature Converter</h1>
-      <div>
+
+      <div class="cont cels-cont">
         <p>Celsius</p>
         <input type="number" class="celsius" placeholder="Enter Temperature" />
       </div>
 
-      <div>
+      <div class="cont far-cont">
         <p>Farenheit</p>
         <input
           type="number"
@@ -23,7 +32,7 @@
         />
       </div>
 
-      <div>
+      <div class="cont kelv-cont">
         <p>Kelvin</p>
         <input type="number" class="kelvin" placeholder="Enter Temperature" />
       </div>
