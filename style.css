@@ -62,3 +62,7 @@ input::placeholder {
   font-size: 1.6rem;
   color: rgb(158, 158, 158);
 }
+
+button {
+  opacity: 0;
+}
